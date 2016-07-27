@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Twittemon</title>
+
+		<style>
+			body{
+				background-color: yellow;
+				margin: 0;
+			}
+
+			header{
+				background-color: blue;
+				border-bottom: 3px solid white
+				z-index: 0;
+			}
+
+			header ul {
+				margin:0;
+				list-style: none;
+				padding: 1em 0 1em 0;
+			}
+
+			header li {
+				display: inline;
+				margin: 0 1em 0 1em;
+			}
+
+			header a {
+				color: white;
+				text-decoration: none;
+				font-size: 1.2em;
+			}
+
+			main{
+				overflow:hidden;
+			}
+
+			.background{
+				width:100%;
+				position:absolute;
+				top:-200px;
+				z-index:-1;
+			}
+
+			main > aside {
+				margin-top: 100px
+				float: left;
+			}
+
+			main > aside img{
+				width:15%
+				background-color:white;
+				border-radius: 50%;
+				padding: 20px;	
+			}
+
+			.avatar{
+				width:30px;
+			}
+
+			.pokeets{
+				background-color: white
+			}
+
+			.pokeets ul{
+				margin: 0
+				padding: 0
+				list-style:none;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href='/home' title='Go home'>Home</a>
+					</li>
+					<li>
+						<a href='/battles' title='See my battles'>Battles</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<img src="Straiton_City.jpg" class='background'>
+			
+			<aside>
+				<img src="Pikachu.jpg" class='pikachu'>
+
+				<h2>Pikachu</h2>
+				<h3>@Pikatweet</h3>
+
+			</aside>
+
+			<section class='pokeets'>
+
+				<ul>
+					<li>
+						<img src='Pikachu.jpg' class='avatar'.
+						<h2>Pikachu</h2>
+						<h3>@Pikatweet</h3>
+						<p>I really hate those stupid balls.
+						</p>
+
+					</li>
+					<li>
+						<img src='Pikachu.jpg' class='avatar'.
+						<h2>Pikachu</h2>
+						<h3>@Pikatweet</h3>
+						<p>I really hate those stupid balls.
+						</p>
+
+					</li>
+					<li>
+						<img src='Pikachu.jpg' class='avatar'.
+						<h2>Pikachu</h2>
+						<h3>@Pikatweet</h3>
+						<p>I really hate those stupid balls.
+						</p>
+
+					</li>
+					<li>
+						<img src='Pikachu.jpg' class='avatar'.
+						<h2>Pikachu</h2>
+						<h3>@Pikatweet</h3>
+						<p>I really hate those stupid balls.
+						</p>
+
+					</li>
+
+				</ul>
+
+			</section>
+
+			
+		</main>
+
+	</body>
+
+</html>
